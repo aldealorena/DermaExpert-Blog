@@ -1,0 +1,103 @@
+/* CSS */
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url('https://images.unsplash.com/photo-1528459709161-157d86910939?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=808&q=80');
+}
+
+ header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: white;
+ }
+
+ header .logo{
+  display: flex;
+  align-items: center;
+
+}
+
+ header img {
+   width: 200px;
+   height: 200px;
+
+ }
+
+ header input {
+   padding: 1rem;
+   font-size: 20px;
+   border-radius: 15px;
+ }
+
+ header input::placeholder{
+   color: #e60bc5;
+ }
+
+
+
+
+ nav ul {
+   padding: 0;
+   margin: 0;
+   display: flex;
+   list-style-type: none;
+   justify-content: space-around;
+ }
+
+
+ nav li {
+   padding: 1rem;
+   background-color: rgb(237, 152, 245);
+   width: 25%;
+
+ }
+
+  nav li:hover{
+    background-color: #24bf84;
+  }
+
+ nav a {
+   color: #0a0a0a;
+   text-decoration: none;
+ }
+
+ .lista {
+   color: #050302;
+   background-color: #ebb59b;
+ }
+
+
+ main {
+  margin:0 10%;
+  padding: 1rem;
+  background-color: white;
+}
+
+footer {
+  background-color: white;
+
+}
+
+
+ .welcome-p {
+  color: #37a310;
+ }
+
+ p {
+  color: #0931ab;
+ }
+
+ .preturi {
+  color: #d61106;
+ }
+
+h1, h2:hover{
+  color: #7808a1;
+}
